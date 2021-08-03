@@ -209,6 +209,10 @@
     height: 760px;
   }
 
+  .promotions {
+    text-align: center;
+  }
+
   .top-row input {
     margin-left: 200px;
     width: 280px;  
@@ -250,6 +254,10 @@
 }
 
 @media (max-width: 800px) {
+  .cover {
+    height: 720px;
+  }
+
   .promotions p {
     font-size: 45px;
     margin-top: 35px;
@@ -269,14 +277,13 @@
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 680px) {
   .cover {
-    height: 780px;
+    height: 770px;
   }
 
   .promotions p {
-    font-size: 35px;
-    margin-top: 35px;
+    font-size: 35px;    
   }
 
   .top-row {  
@@ -292,9 +299,26 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   .cover {
-    height: 680px;
+    height: 800px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .top-row h2 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .cover {
+    height: 660px;
+    padding: 0;
+  }
+
+  .container {
+    margin: 10px 10px 0 10px;
   }
   
   .low-row img {
@@ -304,14 +328,17 @@
 }  
 
 @media (max-width: 450px) {
+  .cover {
+    height: 680px;    
+  }
+
   .top-row input {
     margin: 20px 0 0 0;
     width: 200px;  
   }
 
   .promotions {
-    width: 250px;
-    margin-left: 35px;
+    width: 250px;    
   }
 
   .promotions p {

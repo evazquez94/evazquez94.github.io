@@ -106,6 +106,10 @@
   cursor: pointer;
 }
 
+.second-icon {
+  margin-left: 30px;
+}
+
 .store-icons i{
   margin-right: 10px;
   font-size: 30px;
@@ -297,5 +301,34 @@
     width: 350px !important;
     height: 284px !important;
   }
+}  
 
+@media (max-width: 450px) {
+  .top-row input {
+    margin: 20px 0 0 0;
+    width: 200px;  
+  }
+
+  .promotions {
+    width: 250px;
+    margin-left: 35px;
+  }
+
+  .promotions p {
+    font-size: 25px;    
+  }
+
+  .store-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-icon {
+    margin: 10px 0 0 0 !important;
+  }
+
+  .low-row img {
+    width: 300px !important;
+    height: 244px !important;
+  }
 }  
